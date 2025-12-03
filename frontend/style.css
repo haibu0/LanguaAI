@@ -1,4 +1,44 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 20px;
+    background: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dropdowns {
+    margin-top: 15px;
+}
+
+select {
+    padding: 8px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.history {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#historyList {
+    margin-top: 10px;
 }
